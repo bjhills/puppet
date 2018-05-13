@@ -4,5 +4,5 @@ package { 'ruby':
 
 package { 'puppet-lint':
   ensure   => installed,
-  provider => gem,
+  provider => puppet_gem,
 }
