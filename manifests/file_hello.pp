@@ -3,5 +3,6 @@ file { '/tmp/hello.txt':
   content => 
 "# This file is managed by Puppet - any manual edits will be lost
 hello, world
-Also puppet is not bad\n",
+Also puppet is not bad
+Git is ok\n",
 }
